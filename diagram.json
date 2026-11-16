@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "author": "Kent Paolo L. Quintana",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-stm32-bluepill",
+      "id": "bluepill",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "bluepill:TX1", "$serialMonitor:RX", "" ],
+    [ "bluepill:RX1", "$serialMonitor:TX", "" ]
+  ]
+}
